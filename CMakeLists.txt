@@ -4,3 +4,13 @@ project(CppFeatures)
 
 add_executable(IIFE_lambda IIFE_lambda.cpp)
 target_compile_features(IIFE_lambda PRIVATE cxx_std_17)
+
+add_executable(attribute_nodiscard attribute_nodiscard.cpp)
+target_compile_features(attribute_nodiscard PRIVATE cxx_std_17)
+
+add_executable(attribute_deprecated attribute_deprecated.cpp)
+target_compile_features(attribute_nodiscard PRIVATE cxx_std_17)
+
+add_executable(attribute_maybe_unused attribute_maybe_unused.cpp)
+target_compile_features(attribute_maybe_unused PRIVATE cxx_std_17)
+target_compile_options(attribute_maybe_unused PRIVATE "-Wunused")
