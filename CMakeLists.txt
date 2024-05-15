@@ -6,10 +6,10 @@ set(CMAKE_CXX_STANDARD 17)
 
 find_package(Eigen3 REQUIRED)
 
-add_executable(IIFE_lambda IIFE_lambda.cpp)
-target_link_libraries(IIFE_lambda PRIVATE Eigen3::Eigen)
+add_executable(1_IIFE_lambda 1_IIFE_lambda.cpp)
+target_link_libraries(1_IIFE_lambda PRIVATE Eigen3::Eigen)
 
-add_executable(attributes attributes.cpp)
-target_compile_options(attributes PRIVATE "-Wunused")
+add_executable(2_attributes 2_attributes.cpp)
+target_compile_options(2_attributes PRIVATE "-Wunused")
 
-add_executable(constexpr constexpr.cpp)
+add_executable(3_constexpr 3_constexpr.cpp)
