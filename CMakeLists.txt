@@ -11,3 +11,5 @@ target_link_libraries(IIFE_lambda PRIVATE Eigen3::Eigen)
 
 add_executable(attributes attributes.cpp)
 target_compile_options(attributes PRIVATE "-Wunused")
+
+add_executable(constexpr constexpr.cpp)
