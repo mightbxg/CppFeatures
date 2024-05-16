@@ -19,3 +19,5 @@ add_executable(4_if_constexpr 4_if_constexpr.cpp)
 add_executable(5_inline_variable 5_inline_variable.cpp 5_inline_variable_main.cpp)
 
 add_executable(6_if_switch_init 6_if_switch_init.cpp)
+
+add_executable(7_nested_namespace 7_nested_namespace.cpp)
