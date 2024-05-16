@@ -13,3 +13,5 @@ add_executable(2_attributes 2_attributes.cpp)
 target_compile_options(2_attributes PRIVATE "-Wunused")
 
 add_executable(3_constexpr 3_constexpr.cpp)
+
+add_executable(4_if_constexpr 4_if_constexpr.cpp)
